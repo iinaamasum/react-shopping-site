@@ -6,28 +6,28 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav__bar">
-        <a href="/">
+        <a className="left__padding" href="/">
           <img src={logo} alt="" srcset="" />
         </a>
         <div className="link">
           <ul>
             <li>
-              <a href="/" target="_blank" rel="noopener noreferrer">
+              <a href="/" rel="noopener noreferrer">
                 Home
               </a>
             </li>
             <li>
-              <a href="/order" target="_blank" rel="noopener noreferrer">
+              <a href="/order" rel="noopener noreferrer">
                 Order
               </a>
             </li>
             <li>
-              <a href="/review" target="_blank" rel="noopener noreferrer">
+              <a href="/review" rel="noopener noreferrer">
                 Order Review
               </a>
             </li>
             <li>
-              <a href="/inventory" target="_blank" rel="noopener noreferrer">
+              <a href="/inventory" rel="noopener noreferrer">
                 Manage Inventory
               </a>
             </li>

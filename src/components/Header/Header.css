@@ -1,0 +1,45 @@
+section {
+  width: 85%;
+  padding-top: 4rem;
+  margin: 0 7.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price__off {
+  color: #ff9900;
+  font-size: 1.75rem;
+}
+.heading {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.heading__des {
+  font-size: 1.25rem;
+  margin: 0%;
+}
+
+.shop__now {
+  font-size: 1.75rem;
+  border-radius: 3rem;
+  color: white;
+  background-color: #2a414fdb;
+  border: 1px solid gray;
+  padding: 0.5rem 2rem;
+  margin-top: 1.5rem;
+}
+
+.shop__now:hover {
+  background-color: #1c2b35d0;
+  cursor: pointer;
+}
+.left__padding {
+  margin: 0%;
+  padding: 0%;
+}
+
+.right__img > img {
+  height: 35rem;
+}
