@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import Shopping from './Shopping/Shopping';
+import Shopping from './components/Shopping/Shopping';
 
 function App() {
   return (

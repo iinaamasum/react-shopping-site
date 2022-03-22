@@ -2,6 +2,10 @@
   width: 85%;
   margin: 0 7.5%;
 }
+.order__area {
+  display: flex;
+  justify-content: space-between;
+}
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

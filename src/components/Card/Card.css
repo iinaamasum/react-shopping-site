@@ -1,34 +1,52 @@
 .col {
-  border-radius: 0.5rem;
-  /* padding: 0.4rem; */
-  box-shadow: 4px 4px 8px -2px #2a414f;
-  position: relative;
   height: 33rem;
   width: 20rem;
+  position: relative;
+  border-radius: 0.4rem;
+  border: 2px solid #1c2b3557;
 }
+
 .card__img {
-  height: 20rem;
-  width: 20rem;
+  width: 19.2rem;
+  border-radius: 0.4rem;
+  margin: 0.4rem;
 }
-.name__price {
-  display: inline;
+
+.add__cart {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: white;
+  border: 1px solid;
 }
+
 .others__info {
   position: absolute;
   bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 .add__cart {
   width: 20rem;
-  padding: 0.7rem 0;
-  border-radius: 0 0 0.5rem 0.5rem;
-  border: 0;
-  margin-top: 1rem;
+  cursor: pointer;
+  color: #2a414f;
+  background-color: white;
+  border: 2px solid #2a414f;
+  /* border: 0; */
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0 0 0.4rem 0.4rem;
 }
-
+.add__cart:hover {
+  background-color: #2a414f;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 h2,
 h4,
 p {
-  width: 18rem;
   margin: 0;
-  margin-left: 0.3rem;
+  padding-left: 0.4rem;
 }
