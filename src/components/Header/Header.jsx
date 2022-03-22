@@ -1,3 +1,5 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import headerImg from '../../images/header.svg';
 import './Header.css';
@@ -12,7 +14,10 @@ const Header = () => {
           Discover all the new arrivals of ready-to-wear collection.
         </p>
         <a className="left__padding" href="/order">
-          <button className="shop__now">Shop Now</button>
+          <button className="shop__now">
+            Shop Now
+            <FontAwesomeIcon className="font__awesome" icon={faArrowRight} />
+          </button>
         </a>
       </div>
       <div className="right__img">
