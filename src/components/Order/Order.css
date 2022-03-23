@@ -1,3 +1,21 @@
 .order__section {
   background-color: #2a414f;
+  color: goldenrod;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.order__section h1 {
+  text-align: center;
+}
+
+.order__pay {
+  margin-left: 1rem;
+}
+
+.order__pay h3,
+p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
 }
