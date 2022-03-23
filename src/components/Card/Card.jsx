@@ -3,6 +3,7 @@ import './Card.css';
 
 const Card = (props) => {
   const { img, name, id, price, seller, ratings } = props.product;
+  const cartHandleClick = (id) => {};
   return (
     <div className="col">
       <div className="">
@@ -15,7 +16,9 @@ const Card = (props) => {
       <div className="others__info">
         <p>Manufacturer: {seller}</p>
         <p>Rating: {ratings} stars</p>
-        <button className="add__cart">Add to Cart</button>
+        <button onClick={() => cartHandleClick(id)} className="add__cart">
+          Add to Cart
+        </button>
       </div>
     </div>
   );

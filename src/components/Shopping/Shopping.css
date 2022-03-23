@@ -1,6 +1,7 @@
 .separation {
-  width: 85%;
-  margin: 0 7.5%;
+  width: 92.5%;
+  position: relative;
+  margin-left: 7.5%;
 }
 .order__area {
   display: flex;
@@ -9,9 +10,16 @@
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 4rem;
+  grid-gap: 2rem;
 }
 .card__section {
   text-align: center;
   margin-top: 4rem;
+}
+.order__details {
+  width: 100%;
+  background-color: #2a414f;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
